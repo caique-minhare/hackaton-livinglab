@@ -2,4 +2,9 @@
     <string name="global_email">email</string>
     <string name="global_password">password</string>
     <string name="login_label">login</string>
+    <string name="signin">Entrar</string>
+    <string name="signup">CADASTRAR</string>
+    <string name="subtitle_login">Encontre as melhores academias próximas a você</string>
+    <string name="logo_description">logo</string>
+    <string name="forget_my_password">Esqueci minha senha</string>
 </resources>

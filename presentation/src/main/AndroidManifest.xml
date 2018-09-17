@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hackaton.notice">
+    package="br.com.igym">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="com.hackaton.notice.FuckYouApplication"
+        android:name="br.com.igym.IGymApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="iGym"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -26,7 +26,7 @@
         </activity>
 
         <activity
-            android:name="com.hackaton.notice.view.dashboard.MainActivity"
+            android:name=".view.dashboard.MainActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
@@ -36,11 +36,12 @@
             android:name=".view.login.LoginActivity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:screenOrientation="portrait"
-            android:theme="@style/SplashScreenTheme"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
 
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="62bbfb2242dd06cba0548a6386bd02463a9cfc36" />
+            android:value="9c2432fd43d37b68d06ff80f46c7f05a543d35b4"
+            />
         <meta-data
             android:name="firebase_crashlytics_collection_enabled"
             android:value="false" />
